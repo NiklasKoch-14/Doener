@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f89a365-e3a5-460f-bc40-9b31ed5a8636" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/DoenerBestellungFE/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/DoenerBestellungFE/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoenerBestellungFE/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/DoenerBestellungFE/src/app/app.component.ts" afterDir="false" />
+    <list default="true" id="7f89a365-e3a5-460f-bc40-9b31ed5a8636" name="Changes" comment="added angular 20">
+      <change afterPath="$PROJECT_DIR$/.idea/easycode/codebase-v2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/controller/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/controller/AuthBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/controller/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/service/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/service/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoenerBestellungBE/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DoenerBestellungBE/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoenerBestellungBE/src/main/java/com/example/doenerbestellung/controller/UiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoenerBestellungBE/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoenerBestellungBE/src/main/resources/db/migration/V1_1_0__create_users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/DoenerBestellungBE/src/main/resources/db/migration/V1_1_0__create_users.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +36,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTTP Public Environment File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DoenerBestellungFE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HttpClientSelectedEnvironments">
     <file url="file://$PROJECT_DIR$/DoenerBestellungBE/rest/testREST.http" environment="dev" />
@@ -65,6 +86,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.DoenerBestellungApplication.executor": "Debug",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -137,11 +159,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1757334077054</updated>
-      <workItem from="1757334078052" duration="2894000" />
+      <workItem from="1757334078052" duration="10173000" />
     </task>
+    <task id="LOCAL-00001" summary="added">
+      <option name="closed" value="true" />
+      <created>1757337085014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757337085014</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added" />
+    <MESSAGE value="added angular 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="added angular 20" />
   </component>
 </project>
